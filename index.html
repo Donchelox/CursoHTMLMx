@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="e">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>Geek over - Tienda online</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4cd7cc78d8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--agregar metas-->
+    <meta name="theme-color" content="#180559">
+
+
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<!--M. Vasquez-->
+<div class="top-section">
+    <!--Header-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color: antiquewhite;"></i></span>
+        </button> 
+        <a class="navbar-brand" href="#"><h1 class="logo">Geek over</h1></a>
+        <ul class="cart-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link cart" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-shopping-cart"></i>
+                </a>
+                <div class="dropdown-menu cart" id="carrito" aria-labelledby="navbarDropdown">
+                    <ul class="products-cart">
+                        <li class="product-cart" id="001">
+                            <div class="media product-cart">
+                                <img src="https://via.placeholder.com/80" class="align-self-start mr-3" alt="...">
+                                <div class="media-body">
+                                <h5 class="mt-0 cart-product-name">Camiseta geek hombre <b>x 1</b></h5>
+                                <small class="price-cart">$99.99</small>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-cart" id="002">
+                            <div class="media product-cart">
+                                <img src="https://via.placeholder.com/80" class="align-self-start mr-3" alt="...">
+                                <div class="media-body">
+                                <h5 class="mt-0 cart-product-name">Camiseta geek mujer <b>x 1</b></h5>
+                                <small class="price-cart">$99.99</small>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-cart" id="003">
+                            <div class="media product-cart">
+                                <img src="https://via.placeholder.com/80" class="align-self-start mr-3" alt="...">
+                                <div class="media-body">
+                                <h5 class="mt-0 cart-product-name">Camiseta geek niño <b>x 1</b></h5>
+                                <small class="price-cart">$99.99</small>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="cart-buttons">
+                        <div class="dropdown-divider"></div>
+                        <p id="empty-cart" style="color: black;"></p>
+                        <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Pagar</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="navbar-collapse collapse" id="navbarColor01">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="#lo-ultimo">Lo último</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#destacados">Destacados</a>
+                </li>
+                <li class="nav-item">
+                    <form class="form-inline">
+                        <button class="btn btn-outline my-account" type="button">Mi cuenta</button>
+                    </form>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+    <!--Banner-->
+    <section class="banner-top">
+    <!--Banner-->
+        <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+            <div class="carousel-inner slider-home">
+                <div class="carousel-item active">
+                    <div class="d-flex align-items-center w-100">
+                        <div class="container">
+                            <div class="row h-100">
+                                <div class="col-md-5 col-6 offset-md-1 my-auto">
+                                    <p class="subtitle-banner1">Las mejores prendas durante 48 horas</p>
+                                    <h2 class="title-banner1">CYBER GAMER</h2>
+                                    <h3 class="price-banner1"><small class="from">Desde</small> <span class="price">$9.99</span></h3>
+                                    <div><button type="button" class="btn btn-primary">Ver ofertas</button></div><br>
+                                </div>
+                                <div class="col-md-6 col-6 align-self-end">
+                                    <img class="mx-auto d-block" src="https://via.placeholder.com/400x600" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex align-items-center w-100">
+                        <div class="container">
+                            <div class="row h-100">
+                                <div class="col-md-5 col-6 offset-md-1 my-auto">
+                                    <p class="subtitle-banner1">Las mejores prendas durante 48 horas</p>
+                                    <h2 class="title-banner1">CYBER GAMER</h2>
+                                    <h3 class="price-banner1"><small class="from">Desde</small> <span class="price">$9.99</span></h3>
+                                    <div><button type="button" class="btn btn-primary">Ver ofertas</button></div><br>
+                                </div>
+                                <div class="col-md-6 col-6 align-self-end">
+                                    <img class="mx-auto d-block" src="https://via.placeholder.com/400x600" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex align-items-center w-100">
+                        <div class="container">
+                            <div class="row h-100">
+                                <div class="col-md-5 col-6 offset-md-1 my-auto">
+                                    <p class="subtitle-banner1">Las mejores prendas durante 48 horas</p>
+                                    <h2 class="title-banner1">CYBER GAMER</h2>
+                                    <h3 class="price-banner1"><small class="from">Desde</small> <span class="price">$9.99</span></h3>
+                                    <div><button type="button" class="btn btn-primary">Ver ofertas</button></div><br>
+                                </div>
+                                <div class="col-md-6 col-6 align-self-end">
+                                    <img class="mx-auto d-block" src="https://via.placeholder.com/400x600" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+</div>
+<!--Categorías-->
+<section class="icons-categories">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-3 col-6 d-flex align-items-center icon-div">
+                <div class="mx-auto icon-categories align-items-center">
+                    <div id="icon-games" src="img/Icon-games.svg"></div>
+                    <h4 class="category-name-icon">Videojuegos</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 d-flex align-items-center icon-div">
+                <div class="mx-auto icon-categories">
+                    <div id="icon-geek" src="img/Icon-geek.svg"></div> 
+                    <h4 class="category-name-icon">Geek</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 d-flex align-items-center icon-div">
+                <div class="mx-auto icon-categories">
+                    <div id="icon-movie" src="img/Icon-movie.svg"></div>
+                    <h4 class="category-name-icon">Películas</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 d-flex align-items-center icon-div">
+                <div class="my-auto icon-categories">
+                    <div id="icon-music" src="img/Icon-music.svg"></div>
+                    <h4 class="category-name-icon">Música</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--M. Solis-->
+<section id="lo-ultimo">
+    <div class="container">
+        <div class="row">
+            <h2 id="lo-ultimo-title">Lo último</h2>
+        </div>
+        <div class="row">
+            <div id="carrouselProducts" class="carousel slide carrouselProducts-slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title titulo-producto">Card title 2</h5>
+                              <h6 class="card-price">$99.999</h6>
+                              <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title titulo-producto">Card title 2</h5>
+                              <h6 class="card-price">$99.999</h6>
+                              <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title titulo-producto">Card title 2</h5>
+                          <h6 class="card-price">$99.999</h6>
+                          <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title titulo-producto">Card title 2</h5>
+                          <h6 class="card-price">$99.999</h6>
+                          <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title titulo-producto">Card title</h5>
+                              <h6 class="card-price">$99.999</h6>
+                              <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title titulo-producto">Card title</h5>
+                              <h6 class="card-price">$99.999</h6>
+                              <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title titulo-producto">Card title</h5>
+                          <h6 class="card-price">$99.999</h6>
+                          <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title titulo-producto">Card title</h5>
+                          <h6 class="card-price">$99.999</h6>
+                          <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev carrousel-loultimo" href="#carrouselProducts" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next carrousel-loultimo" href="#carrouselProducts" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+    </div>
+</section>
+
+<section id="fortnite">
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center">
+          <div class="col-md-6 offset-md-6 col-12 text-center fortnite-content">
+            <img src="img/FortniteLogo.png" alt="" width="90%">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, fugiat qui molestiae quae, fugit architecto doloribus commodi accusamus est ipsum quis odit magnam soluta nam cum suscipit at autem porro?</p>
+            <h4 class="price price-fortnite">$99.99</h4>
+            <a class="btn btn-primary fortnite-button">Ver productos</a>
+          </div>   
+        </div>
+      </div>
+</section>
+
+<section id="destacados">
+    <div class="container">
+        <h2 id="destacados-title">Destacados</h2>
+        <div class="row">
+            <div class="col-6 col-md-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title titulo-producto">Card title 2</h5>
+                    <h6 class="card-price">$99.999</h6>
+                    <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title titulo-producto">Card title 2</h5>
+                    <h6 class="card-price">$99.999</h6>
+                    <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title titulo-producto">Card title 2</h5>
+                <h6 class="card-price">$99.999</h6>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title titulo-producto">Card title 2</h5>
+                <h6 class="card-price">$99.999</h6>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-md-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title titulo-producto">Card title 2</h5>
+                    <h6 class="card-price">$99.999</h6>
+                    <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title titulo-producto">Card title 2</h5>
+                    <h6 class="card-price">$99.999</h6>
+                    <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title titulo-producto">Card title 2</h5>
+                <h6 class="card-price">$99.999</h6>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title titulo-producto">Card title 2</h5>
+                <h6 class="card-price">$99.999</h6>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-md-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title titulo-producto">Card title 2</h5>
+                    <h6 class="card-price">$99.999</h6>
+                    <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title titulo-producto">Card title 2</h5>
+                    <h6 class="card-price">$99.999</h6>
+                    <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title titulo-producto">Card title 2</h5>
+                <h6 class="card-price">$99.999</h6>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title titulo-producto">Card title 2</h5>
+                <h6 class="card-price">$99.999</h6>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartModal">Agregar al carrito</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--FLAVIA-->
+<div class="formulario">
+    <br>
+          <h2>Contáctanos</h2>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+        
+            </div>
+            <div class="col-sm-4">
+                <form>
+                    <div class="col-40">
+                        <input type="text" class="form-control" id="cajanombre" rows="1" placeholder="Nombre completo">
+                    </div>
+                    <br>
+                    <div class="col-40">
+                        <input type="email" class="form-control" id="cajaemail" placeholder="Email">
+                    </div>
+                <br>
+                <div class="col-40">
+                        <input type="text" class="form-control" id="cajanombre" rows="1" placeholder="Teléfono">
+                </div>
+                <br>
+                </form>
+            </div>
+            <br>
+            <div class="col-sm-4">
+            <form>
+            <div class="col-30">
+                <textarea class="form-control" id="cajitatexto" rows="6" placeholder="Escribe tu mensaje"></textarea>
+            </div>
+            </form>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--boton-->
+    <div>
+        <button type="button" class="btn btn-primary">Enviar mensaje</button></div><br>
+    </div>
+</div>
+    
+<footer>
+    <div class="footer">
+    <br>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+            <div class="titulo-footer">Métodos de pago</div>
+            <br>
+            <div class="tarjetas"><img class="tarjetasdepago" src="img/tarjetas.png" alt="Visa, Mastercard, American Express, Diners, Safetypay"></div><br>
+        </div>
+        <div class="col-md-4">
+            <div class="titulo-footer">Links de interés</div>
+            <br>
+            <div class="listafooter">
+            <ul class="lista" style="list-style-type: none">
+                <li>- Nosotros</li>
+                <li>- ¿Cómo comprar?</li>
+                <li>- Preguntas frecuentes</li>
+                <li>- Trabaja con nosotros</li>
+            </ul>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="titulo-footer">Atención al cliente</div>
+            <br>
+                <div class="atencionclientetelf">
+                Teléfono: +1 23234463464
+                </div>
+                <br>
+                <div class="atencionclientehora">
+                    Lunes a sábado: 10:00 am a 12:00 pm / 03:00 pm a 05:00 pm
+                </div>
+                <br>
+                <div class="redes">
+                    <img class="redessociales" src="img/redes.png" alt="Facebook e Instagram"></div><br>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!--logo final-->
+        <div class="copy">
+            <img class="logofinal" src="img/logo.png" alt="Logo">   Copyright 2020</div><br>
+    </div>
+</footer>
+
+
+
+<!--Modal-->
+<div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-bottom-0">
+          <h5 class="modal-title" id="exampleModalLabel">
+           Tu carrito de compras
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <table class="table table-image" id="tabla-modal">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Producto</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Total</th>
+                <th scope="col">Acciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="w-20">
+                  <img src="https://via.placeholder.com/100" class="img-fluid img-thumbnail" alt="Sheep">
+                </td>
+                <td>Card title 2</td>
+                <td class="price">$99.99</td>
+                <td class="qty"><input type="text" class="form-control" id="input1" value="2"></td>
+                <td>$199.98</td>
+                <td>
+                  <a href="#" class="btn btn-danger btn-sm">
+                    <i class="fa fa-times"></i>
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table> 
+          <div class="d-flex justify-content-end">
+            <h5>Total: <span class="price">$199.98</span></h5>
+          </div>
+        </div>
+        <div class="modal-footer border-top-0 d-flex justify-content-between">
+          <button type="button" class="btn btn-outline" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Ir a pagar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--JS-->
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
